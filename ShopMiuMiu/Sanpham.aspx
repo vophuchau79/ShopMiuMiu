@@ -43,12 +43,12 @@
          </a>
          <br />
          <span>
-         <b>Price: </b><%#:String.Format("{0:c}",Item.UnitPrice)%>
+         <b>Giá: </b><%#:String.Format("{0:c}",Item.UnitPrice)%>
          </span>
          <br />
              <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
              <span>
-             <b>Add To Cart<b>
+             <b>Đặt hàng</b>
              </span>
              </a>
          </td>
